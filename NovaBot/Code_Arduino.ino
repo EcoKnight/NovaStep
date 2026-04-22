@@ -692,7 +692,7 @@ void setup() {
         Serial.println("MPU6050 inicializado");
     }
 
-    WiFi.softAP("Nova", "novastep");
+    WiFi.softAP("NovaBot ESP32", "novastep");
     server.begin();
     last_cmd_time = millis();
 
